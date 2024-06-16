@@ -135,7 +135,7 @@
     width: 99px;
     height: 121px;
     top: 12px;
-    left: 18px;
+    left: 15px;
   }
   
   .screen .text-wrapper-3 {
@@ -176,20 +176,163 @@
     left: 12px;
   }
 
-  .screen .frame-7 {
+  .screen .frame-1 {
     position: absolute;
     width: 130px;
     height: 154px;
-    top: 210px;
+    top: 21px;
     left: 73px;
     background-color: #aebe8a;
     border-radius: 30px;
     overflow: hidden;
     border: 5px solid;
     border-color: #7c7c7c;
-  }
+}
 
-  .screen .frame-13 {
+.screen .frame-2 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 243px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-3 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 413px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-4 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 583px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-5 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 753px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-6 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 923px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-7 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 73px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-8 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 243px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-9 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 413px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-10 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 583px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-11 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 753px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-12 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 923px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+}
+
+.screen .frame-13 {
     position: absolute;
     width: 130px;
     height: 154px;
@@ -200,9 +343,74 @@
     overflow: hidden;
     border: 5px solid;
     border-color: #0b6ecc;
-  }
-  
-  .screen .frame-19 {
+}
+
+.screen .frame-14 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 583px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+}
+
+.screen .frame-15 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 413px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+}
+
+.screen .frame-16 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 243px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+}
+
+.screen .frame-17 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 753px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+}
+
+.screen .frame-18 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 923px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+}
+
+.screen .frame-19 {
     position: absolute;
     width: 130px;
     height: 154px;
@@ -213,48 +421,9 @@
     overflow: hidden;
     border: 5px solid;
     border-color: #0b6ecc;
-  }
-  
-  .screen .frame-2 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 21px;
-    left: 243px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #7c7c7c;
-  }
-  
-  .screen .frame-8 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 210px;
-    left: 243px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #7c7c7c;
-  }
-  
-  .screen .frame-16 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 399px;
-    left: 243px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #0b6ecc;
-  }
-  
-  .screen .frame-20 {
+}
+
+.screen .frame-20 {
     position: absolute;
     width: 130px;
     height: 154px;
@@ -265,64 +434,9 @@
     overflow: hidden;
     border: 5px solid;
     border-color: #0b6ecc;
-  }
-  
-  .screen .frame-3 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 21px;
-    left: 413px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #7c7c7c;
-  }
-  
-  .screen .overlap-3 {
-    position: relative;
-    width: 99px;
-    height: 123px;
-    top: 12px;
-    left: 18px;
-  }
-  
-  .screen .egg-2 {
-    position: absolute;
-    width: 71px;
-    height: 92px;
-    top: 31px;
-    left: 12px;
-  }
-  
-  .screen .frame-9 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 210px;
-    left: 413px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #7c7c7c;
-  }
-  
-  .screen .frame-15 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 399px;
-    left: 413px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #0b6ecc;
-  }
-  
-  .screen .frame-21 {
+}
+
+.screen .frame-21 {
     position: absolute;
     width: 130px;
     height: 154px;
@@ -333,48 +447,9 @@
     overflow: hidden;
     border: 5px solid;
     border-color: #0b6ecc;
-  }
-  
-  .screen .frame-4 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 21px;
-    left: 583px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #7c7c7c;
-  }
-  
-  .screen .frame-10 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 210px;
-    left: 583px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #7c7c7c;
-  }
-  
-  .screen .frame-14 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 399px;
-    left: 583px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #0b6ecc;
-  }
-  
-  .screen .frame-22 {
+}
+
+.screen .frame-22 {
     position: absolute;
     width: 130px;
     height: 154px;
@@ -385,48 +460,9 @@
     overflow: hidden;
     border: 5px solid;
     border-color: #e27d13;
-  }
-  
-  .screen .frame-5 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 21px;
-    left: 753px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #7c7c7c;
-  }
-  
-  .screen .frame-11 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 210px;
-    left: 753px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #7c7c7c;
-  }
-  
-  .screen .frame-17 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 399px;
-    left: 753px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #0b6ecc;
-  }
-  
-  .screen .frame-23 {
+}
+
+.screen .frame-23 {
     position: absolute;
     width: 130px;
     height: 154px;
@@ -437,48 +473,9 @@
     overflow: hidden;
     border: 5px solid;
     border-color: #e27d13;
-  }
-  
-  .screen .frame-6 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 21px;
-    left: 923px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #7c7c7c;
-  }
-  
-  .screen .frame-12 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 210px;
-    left: 923px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #7c7c7c;
-  }
-  
-  .screen .frame-18 {
-    position: absolute;
-    width: 130px;
-    height: 154px;
-    top: 399px;
-    left: 923px;
-    background-color: #aebe8a;
-    border-radius: 30px;
-    overflow: hidden;
-    border: 5px solid;
-    border-color: #0b6ecc;
-  }
-  
-  .screen .frame-24 {
+}
+
+.screen .frame-24 {
     position: absolute;
     width: 130px;
     height: 154px;
@@ -489,7 +486,7 @@
     overflow: hidden;
     border: 5px solid;
     border-color: #e27d13;
-  }
+}
   
   .screen .overlap-4 {
     position: absolute;
