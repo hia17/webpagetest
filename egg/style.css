@@ -1,0 +1,917 @@
+@font-face {
+  font-family: 'ONE(Ed.) Galmuri11 Regular-'; /* 폰트 이름 설정 */
+  src: url('ONE(Ed.) Galmuri11 Regular.ttf'); /* 폰트 파일 경로 설정 */
+}
+
+@font-face {
+  font-family: 'ONE(Ed.) Galmuri11 Bold-Regular'; /* 폰트 이름 설정 */
+  src: url('ONE(Ed.) Galmuri11 Bold.ttf'); /* 폰트 파일 경로 설정 */
+}
+
+.screen {
+    background-color: #1d2b09;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .screen .div {
+    background-color: #1d2b09;
+    overflow: hidden;
+    width: 1920px;
+    height: 1080px;
+    position: relative;
+  }
+  
+  .screen .overlap {
+    position: absolute;
+    width: 1561px;
+    height: 2992px;
+    top: -101px;
+    left: -111px;
+  }
+  
+  .screen .frame {
+    position: absolute;
+    width: 1111px;
+    height: 1080px;
+    top: 101px;
+    left: 450px;
+    background-color: #1d2b09;
+    overflow: hidden;
+  }
+  
+  .screen .frame-0 {
+    position: absolute;
+    width: 1111px;
+    height: 760px;
+    top: 300px;
+    left: -1px;
+  }
+  
+  .screen .overlap-group-wrapper {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 73px;
+    overflow: hidden;
+  }
+  
+  .screen .overlap-group {
+    position: relative;
+    width: 140px;
+    height: 164px;
+    top: -5px;
+    left: -5px;
+    background-color: #ff0000;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .group {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 0;
+    left: 0;
+  }
+  
+  .screen .group-wrapper {
+    height: 154px;
+  }
+  
+  .screen .egg-wrapper {
+    position: relative;
+    width: 130px;
+    height: 154px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .egg {
+    position: absolute;
+    width: 71px;
+    height: 92px;
+    top: 38px;
+    left: 25px;
+  }
+  
+  .screen .text-wrapper {
+    width: 99px;
+    top: 12px;
+    left: 18px;
+    color: #000000;
+    font-size: 20px;
+    line-height: normal;
+    position: absolute;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .screen .text-wrapper-2 {
+    width: 32px;
+    height: 36px;
+    top: 70px;
+    left: 49px;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    color: #000000;
+    font-size: 40px;
+    line-height: 48px;
+    white-space: nowrap;
+    position: absolute;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .screen .overlap-2 {
+    position: relative;
+    width: 99px;
+    height: 121px;
+    top: 12px;
+    left: 18px;
+  }
+  
+  .screen .text-wrapper-3 {
+    position: absolute;
+    width: 99px;
+    top: 0;
+    left: 0;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .screen .text-wrapper-4 {
+    position: absolute;
+    width: 32px;
+    height: 36px;
+    top: 58px;
+    left: 31px;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .screen .img {
+    position: absolute;
+    width: 71px;
+    height: 92px;
+    top: 29px;
+    left: 12px;
+  }
+
+  .screen .frame-7 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 73px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+
+  .screen .frame-13 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 73px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+  }
+  
+  .screen .frame-19 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 588px;
+    left: 73px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+  }
+  
+  .screen .frame-2 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 243px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .frame-8 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 243px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .frame-16 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 243px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+  }
+  
+  .screen .frame-20 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 588px;
+    left: 243px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+  }
+  
+  .screen .frame-3 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 413px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .overlap-3 {
+    position: relative;
+    width: 99px;
+    height: 123px;
+    top: 12px;
+    left: 18px;
+  }
+  
+  .screen .egg-2 {
+    position: absolute;
+    width: 71px;
+    height: 92px;
+    top: 31px;
+    left: 12px;
+  }
+  
+  .screen .frame-9 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 413px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .frame-15 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 413px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+  }
+  
+  .screen .frame-21 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 588px;
+    left: 413px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+  }
+  
+  .screen .frame-4 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 583px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .frame-10 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 583px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .frame-14 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 583px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+  }
+  
+  .screen .frame-22 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 588px;
+    left: 583px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #e27d13;
+  }
+  
+  .screen .frame-5 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 753px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .frame-11 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 753px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .frame-17 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 753px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+  }
+  
+  .screen .frame-23 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 588px;
+    left: 753px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #e27d13;
+  }
+  
+  .screen .frame-6 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 21px;
+    left: 923px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .frame-12 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 210px;
+    left: 923px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #7c7c7c;
+  }
+  
+  .screen .frame-18 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 399px;
+    left: 923px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #0b6ecc;
+  }
+  
+  .screen .frame-24 {
+    position: absolute;
+    width: 130px;
+    height: 154px;
+    top: 588px;
+    left: 923px;
+    background-color: #aebe8a;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 5px solid;
+    border-color: #e27d13;
+  }
+  
+  .screen .overlap-4 {
+    position: absolute;
+    width: 1110px;
+    height: 280px;
+    top: 0;
+    left: 0;
+    background-color: #3d511f;
+  }
+  
+  .screen .element {
+    width: 261px;
+    height: 126px;
+    top: 79px;
+    left: 47px;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: 48px;
+    position: absolute;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .screen .navbar {
+    position: absolute;
+    width: 685px;
+    height: 69px;
+    top: 131px;
+    left: 360px;
+  }
+  
+  .screen .group-2 {
+    position: absolute;
+    width: 664px;
+    height: 20px;
+    top: 0;
+    left: 6px;
+  }
+  
+  .screen .overlap-group-2 {
+    position: relative;
+    height: 20px;
+  }
+  
+  .screen .line {
+    position: absolute;
+    width: 654px;
+    height: 5px;
+    top: 8px;
+    left: 10px;
+  }
+  
+  .screen .ellipse {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background-color: #aebe8a;
+    border-radius: 10px;
+  }
+  
+  .screen .ellipse-2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 215px;
+    background-color: #aebe8a;
+    border-radius: 10px;
+  }
+  
+  .screen .ellipse-3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 429px;
+    background-color: #aebe8a;
+    border-radius: 10px;
+  }
+  
+  .screen .ellipse-4 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 644px;
+    background-color: #aebe8a;
+    border-radius: 10px;
+  }
+  
+  .screen .text-wrapper-5 {
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    top: 36px;
+    left: 0;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .screen .text-wrapper-6 {
+    left: 431px;
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    top: 36px;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .screen .text-wrapper-7 {
+    left: 214px;
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    top: 36px;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .screen .text-wrapper-8 {
+    left: 642px;
+    position: absolute;
+    width: 35px;
+    height: 33px;
+    top: 36px;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 48px;
+    white-space: nowrap;
+  }
+  
+  .screen .text-wrapper-9 {
+    width: 195px;
+    top: 49px;
+    left: 339px;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    color: #ffffff;
+    font-size: 40px;
+    line-height: normal;
+    white-space: nowrap;
+    position: absolute;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .screen .rectangle {
+    position: absolute;
+    width: 339px;
+    height: 2892px;
+    top: 100px;
+    left: 111px;
+    background-color: #e0e3d7;
+  }
+  
+  .screen .view {
+    position: absolute;
+    width: 545px;
+    height: 1179px;
+    top: 0;
+    left: 0;
+  }
+  
+  .screen .overlap-5 {
+    position: relative;
+    width: 537px;
+    height: 1179px;
+  }
+  
+  .screen .rectangle-2 {
+    position: absolute;
+    width: 339px;
+    height: 1179px;
+    top: 0;
+    left: 99px;
+    background-color: #e0e3d7;
+  }
+  
+  .screen .title {
+    position: absolute;
+    width: 520px;
+    top: 282px;
+    left: 17px;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  
+  .screen .title-2 {
+    width: 520px;
+    top: 387px;
+    left: 0;
+    position: absolute;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  
+  .screen .title-3 {
+    width: 520px;
+    top: 492px;
+    left: 0;
+    position: absolute;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  
+  .screen .title-4 {
+    width: 200px;
+    top: 604px;
+    left: 160px;
+    position: absolute;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  
+  .screen .ellipse-5 {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 293px;
+    left: 185px;
+    object-fit: cover;
+  }
+  
+  .screen .view-2 {
+    position: absolute;
+    width: 118px;
+    height: 96px;
+    top: 156px;
+    left: 209px;
+  }
+  
+  .screen .group-3 {
+    width: 120px;
+    height: 96px;
+  }
+  
+  .screen .overlap-group-3 {
+    position: relative;
+    width: 118px;
+    height: 96px;
+  }
+  
+  .screen .text-wrapper-10 {
+    top: 0;
+    left: 2px;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    color: #000000;
+    font-size: 36px;
+    line-height: 96px;
+    white-space: nowrap;
+    position: absolute;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .screen .untitled {
+    position: absolute;
+    width: 21px;
+    height: 23px;
+    top: 27px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .screen .rectangle-3 {
+    position: absolute;
+    width: 200px;
+    height: 61px;
+    top: 996px;
+    left: 169px;
+  }
+  
+  .screen .title-5 {
+    width: 128px;
+    top: 1000px;
+    left: 205px;
+    text-decoration: underline;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 48px;
+  }
+  
+  .screen .frame-25 {
+    position: absolute;
+    width: 470px;
+    height: 1079px;
+    top: -1px;
+    left: 1450px;
+    background-color: #829260;
+  }
+  
+  .screen .egg-3 {
+    position: absolute;
+    width: 204px;
+    height: 259px;
+    top: 221px;
+    left: 127px;
+  }
+  
+  .screen .text-wrapper-11 {
+    width: 169px;
+    height: 59px;
+    top: 91px;
+    left: 136px;
+    color: #ffffff;
+    font-size: 64px;
+    line-height: 48px;
+    position: absolute;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .screen .overlap-6 {
+    position: absolute;
+    width: 421px;
+    height: 488px;
+    top: 539px;
+    left: 19px;
+  }
+  
+  .screen .rectangle-4 {
+    position: absolute;
+    width: 421px;
+    height: 487px;
+    top: 1px;
+    left: 0;
+    background-color: #e0e4d8;
+  }
+  
+  .screen .text-wrapper-12 {
+    width: 421px;
+    height: 220px;
+    top: 0;
+    left: 0;
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    color: #000000;
+    font-size: 30px;
+    line-height: 48px;
+    position: absolute;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .screen .p {
+    width: 421px;
+    height: 267px;
+    top: 220px;
+    left: 0;
+    font-family: "ONE(Ed.) Galmuri11 Regular-Regular", Helvetica;
+    color: transparent;
+    font-size: 30px;
+    line-height: 48px;
+    position: absolute;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .screen .span {
+    font-family: "ONE(Ed.) Galmuri11 Regular-", Helvetica;
+    color: #000000;
+  }
+  
+  .screen .text-wrapper-13 {
+    font-family: "ONE(Ed.) Galmuri11 Bold-Regular", Helvetica;
+    color: #7c7c7c;
+  }
+  
